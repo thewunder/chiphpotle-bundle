@@ -1,0 +1,17 @@
+{
+  "name": "thewunder/chiphpotle-bundle",
+  "description": "Symfony Bundle for the the Chiphpotle SpiceDB client",
+  "keywords": ["Authorization", "SpiceDB", "Permissions", "Symfony Bundle"],
+  "autoload": {
+    "psr-4": {
+      "Chiphpotle\\ChiphpotleBundle\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "alsbury/chiphpotle-rest": "^0.7",
+    "symfony/config": "^6.1|^7.0",
+    "symfony/http-kernel": "^6.1|^7.0",
+    "symfony/dependency-injection": "^6.1|^7.0"
+  }
+}
