@@ -2,6 +2,7 @@
   "name": "thewunder/chiphpotle-bundle",
   "description": "Symfony Bundle for the the Chiphpotle SpiceDB client",
   "keywords": ["Authorization", "SpiceDB", "Permissions", "Symfony Bundle"],
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Chiphpotle\\ChiphpotleBundle\\": "src/"
